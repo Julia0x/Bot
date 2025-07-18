@@ -6,7 +6,7 @@ function loadCommands(bot) {
   bot.commands = new Map();
   bot.aliases = new Map();
 
-  const categories = ['utility', 'control'];
+  const categories = ['utility', 'control', 'farming'];
   let totalCommands = 0;
   let totalAliases = 0;
 
